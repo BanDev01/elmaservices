@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary-50: #e8f5e7;
+  --color-primary-100: #c8e8c5;
+  --color-primary-400: #1a9a1f;
+  --color-primary-500: #068301;
+  --color-primary-600: #056d02;
+  --color-primary-700: #045603;
+
+  --color-accent-100: #ffe6cc;
+  --color-accent-400: #ff9a2e;
+  --color-accent-500: #fd7f06;
+  --color-accent-600: #e06700;
+
+  --color-highlight-500: #fd2703;
+  --color-highlight-600: #d81f00;
+
+  --color-ink-950: #0d1210;
+  --color-ink-900: #121a16;
+  --color-ink-800: #1c2622;
+  --color-ink-700: #2c3733;
+  --color-ink-500: #5a6663;
+  --color-ink-300: #9aa4a1;
+
+  --color-paper: #ffffff;
+  --color-mist-50: #f6f8f6;
+  --color-mist-100: #eef2ef;
+  --color-mist-200: #e2e8e4;
+
+  --background: var(--color-paper);
+  --foreground: var(--color-ink-900);
+}
+
+@theme inline {
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+
+  --color-accent-100: var(--color-accent-100);
+  --color-accent-400: var(--color-accent-400);
+  --color-accent-500: var(--color-accent-500);
+  --color-accent-600: var(--color-accent-600);
+
+  --color-highlight-500: var(--color-highlight-500);
+  --color-highlight-600: var(--color-highlight-600);
+
+  --color-ink-950: var(--color-ink-950);
+  --color-ink-900: var(--color-ink-900);
+  --color-ink-800: var(--color-ink-800);
+  --color-ink-700: var(--color-ink-700);
+  --color-ink-500: var(--color-ink-500);
+  --color-ink-300: var(--color-ink-300);
+
+  --color-paper: var(--color-paper);
+  --color-mist-50: var(--color-mist-50);
+  --color-mist-100: var(--color-mist-100);
+  --color-mist-200: var(--color-mist-200);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-10;
+  }
+
+  .section-y {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+}

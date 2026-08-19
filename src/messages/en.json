@@ -1,0 +1,268 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "history": "History",
+    "projects": "Projects",
+    "news": "News",
+    "quote": "Get a quote",
+    "contact": "Contact"
+  },
+  "common": {
+    "getQuote": "Get a quote",
+    "contactUs": "Contact us",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "viewAllServices": "View all services",
+    "viewAllProjects": "View all projects",
+    "ourClients": "Trusted by",
+    "since": "Since 2021",
+    "location": "Lubumbashi, DRC"
+  },
+  "footer": {
+    "tagline": "Sustainable electrical solutions, delivered with excellence.",
+    "quickLinks": "Quick links",
+    "contactTitle": "Contact",
+    "hoursTitle": "Business hours",
+    "hoursWeek": "Monday – Friday: 8:00 AM – 5:00 PM",
+    "hoursSat": "Saturday: 8:00 AM – 12:00 PM",
+    "followUs": "Follow us",
+    "rights": "All rights reserved.",
+    "sitemap": "Sitemap"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Electrical engineering 24 V – 245 kV",
+      "title": "Sustainable electrical solutions, delivered with excellence",
+      "subtitle": "ELMA SERVICES designs, builds and maintains high and low voltage electrical infrastructure for industry and the mining sector in the Democratic Republic of Congo.",
+      "ctaPrimary": "Get a quote",
+      "ctaSecondary": "Discover our services"
+    },
+    "about": {
+      "eyebrow": "About us",
+      "title": "Congolese expertise, built for industrial power",
+      "body": "Founded in 2021 in Lubumbashi, ELMA SERVICES was born from a simple observation: major industrial and mining sites in the region need qualified local expertise in designing, building and maintaining electrical substations and lines, from low to extra-high voltage. Since then, our teams have worked on installations ranging from 24 V to 245 kV, with the same commitment to safety and technical rigor.",
+      "cta": "Our story"
+    },
+    "values": {
+      "eyebrow": "What drives us",
+      "title": "Vision, mission and values",
+      "vision": {
+        "title": "Vision",
+        "body": "To become a national and international reference in the construction and maintenance of electrical infrastructure."
+      },
+      "mission": {
+        "title": "Mission",
+        "body": "To deliver innovative, sustainable and code-compliant electrical solutions for our industrial and mining clients."
+      },
+      "values": {
+        "title": "Values",
+        "body": "Professionalism, quality and safety on every job, alongside a strong commitment to local communities."
+      }
+    },
+    "servicesPreview": {
+      "eyebrow": "Our services",
+      "title": "Full-range expertise, from 24 V to 245 kV"
+    },
+    "stats": {
+      "eyebrow": "By the numbers",
+      "projects": "Projects completed",
+      "clients": "Satisfied clients",
+      "interventions": "Field interventions",
+      "technicians": "Certified technicians"
+    },
+    "projectsPreview": {
+      "eyebrow": "Projects",
+      "title": "Work delivered for major names in the mining industry"
+    },
+    "cta": {
+      "title": "Planning an electrical project?",
+      "body": "Let's talk about your needs, from site diagnostics to commissioning.",
+      "button": "Get a quote"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Our services",
+      "title": "Full-range expertise, from 24 V to 245 kV",
+      "subtitle": "From earthing systems to high voltage, ELMA SERVICES supports your electrical projects at every stage: study, construction, inspection and maintenance."
+    },
+    "list": {
+      "postes-lignes": {
+        "title": "Construction and maintenance of substations and power lines",
+        "short": "From low to extra-high voltage (24 V to 245 kV), design, construction and maintenance to international standards.",
+        "long": "We design, build and maintain substations and power lines across the full voltage range, from 24 V to 245 kV. Every job follows current international standards and is carried out by teams trained for the demands of industrial and mining sites."
+      },
+      "reseaux-terre": {
+        "title": "Earthing networks and installation protection",
+        "short": "Study, design, construction and maintenance of earthing networks to protect installations and teams.",
+        "long": "Earthing is the first line of defense against electrical hazards. We study, design, build and maintain your earthing networks, with measurements taken using certified equipment, to protect both your installations and your teams."
+      },
+      "lignes-mt-bt": {
+        "title": "Medium and low voltage lines",
+        "short": "Construction of medium and low voltage power lines, from routing to commissioning.",
+        "long": "From routing to commissioning, we build medium and low voltage power lines to serve your industrial sites, infrastructure or mining operations."
+      },
+      "inspection": {
+        "title": "Visual and thermal inspections",
+        "short": "Visual and thermographic inspections to catch faults before they cause an outage.",
+        "long": "Our visual and thermographic inspections detect hot spots, faulty connections or signs of wear on your installations before they cause an outage or an incident."
+      },
+      "maintenance-ht": {
+        "title": "High voltage maintenance",
+        "short": "Preventive and corrective maintenance of high voltage substations and lines.",
+        "long": "Our qualified technicians handle preventive and corrective maintenance of your high voltage substations and lines, with rigorous equipment tracking and continuous improvement recommendations."
+      },
+      "etudes-conseil": {
+        "title": "Technical studies and consulting",
+        "short": "Technical studies, sizing and electrical engineering consulting from the design phase onward.",
+        "long": "We support your projects from the study phase: sizing, technical choices and electrical engineering consulting, to secure your installations before the first piece of equipment is even ordered."
+      },
+      "fourniture-equipements": {
+        "title": "Supply of electrical equipment",
+        "short": "Supply of certified electrical equipment and accessories.",
+        "long": "We supply certified electrical equipment and accessories, selected for their reliability, alongside our construction and maintenance services."
+      }
+    }
+  },
+  "history": {
+    "hero": {
+      "eyebrow": "Since 2021",
+      "title": "ELMA SERVICES history",
+      "subtitle": "Sustainable electrical solutions, delivered with excellence."
+    },
+    "intro": "ELMA SERVICES was founded in 2021 in Lubumbashi, in response to a need identified on the ground: the lack of qualified local expertise in designing and building electrical substations, from high to low voltage.",
+    "milestones": {
+      "founding": {
+        "year": "2021 – 2022",
+        "title": "Getting started",
+        "body": "The first small and medium-sized projects focused on measuring and improving earthing networks for a local client base."
+      },
+      "turning-point": {
+        "year": "2023",
+        "title": "A turning point",
+        "body": "ELMA SERVICES reaches a milestone with work on a 220 kV line and substation inspections at the NRO, KAMOA/KASONKO and KAKULA sites, on behalf of KAMOA COPPER SA / IVANHOE MINES."
+      },
+      "growth": {
+        "year": "Today",
+        "title": "Sustainable growth",
+        "body": "Strengthened technical capacity, modernized equipment and an expanding geographic footprint: ELMA SERVICES continues to grow in service of the electrical industry in the DRC."
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Projects",
+      "title": "Our projects",
+      "subtitle": "ELMA SERVICES has successfully delivered several technical projects in the electrical sector, demonstrating its expertise and commitment to quality."
+    },
+    "clientsTitle": "Our long-standing clients",
+    "list": {
+      "reseaux-terre-2021": {
+        "title": "Earthing network improvements",
+        "period": "2021 – 2022",
+        "client": "Local industrial clients",
+        "summary": "Diagnostics and measurements across industrial sites, using certified equipment, to reduce electrical hazards.",
+        "body": "In this first phase, our teams carried out diagnostics and measurements across several industrial sites, using certified equipment, to reduce electrical hazards linked to aging or undersized earthing networks."
+      },
+      "inspection-sous-stations-2023": {
+        "title": "Substation inspections",
+        "period": "2023",
+        "client": "KAMOA COPPER SA / IVANHOE MINES",
+        "summary": "Visual and thermographic inspections at the NRO, KAMOA/KASONKO and KAKULA sites.",
+        "body": "Visual and thermographic inspections carried out on substations at the NRO, KAMOA/KASONKO and KAKULA sites, to detect thermal faults and anticipate maintenance needs."
+      },
+      "ligne-220kv-2023": {
+        "title": "220 kV line upgrade",
+        "period": "2023",
+        "client": "KAMOA COPPER SA",
+        "summary": "High voltage work in a mining environment, under strict safety standards.",
+        "body": "Upgrade work carried out on a 220 kV line in a mining environment, under the strict safety standards applicable to high voltage interventions."
+      },
+      "maintenance-periodique": {
+        "title": "Periodic maintenance",
+        "period": "Ongoing",
+        "client": "Multiple industrial clients",
+        "summary": "Regular monitoring of high and low voltage equipment, with continuous improvement recommendations.",
+        "body": "Regular monitoring of our clients' high and low voltage equipment, paired with continuous improvement recommendations to prevent failures and extend the lifespan of installations."
+      }
+    }
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "News",
+      "title": "News & technical resources",
+      "subtitle": "Our teams share ELMA SERVICES news alongside technical insights on industrial electrical maintenance."
+    },
+    "backToList": "Back to news",
+    "list": {
+      "maintenance-preventive": {
+        "title": "Why preventive high voltage maintenance avoids costly outages",
+        "excerpt": "An undetected hot spot can take a line down for hours. Here's how regular thermographic inspection limits that risk.",
+        "body": "On an industrial or mining site, an unplanned electrical outage rarely costs just the repair time: it also halts production upstream and downstream. Preventive high voltage maintenance exists precisely to reduce this risk, by identifying signs of failure before they become critical.\n\nThermographic inspection is one of the most effective tools for this: a thermal camera can spot a hot point on a connection, breaker or transformer that is often invisible to the naked eye but reveals a loose connection or wear. Combined with regular earthing network measurements and documented equipment tracking, it turns emergency repairs into planned interventions.\n\nAt ELMA SERVICES, this approach is part of our routine work on industrial and mining sites around Lubumbashi: regular diagnostics, detailed reports and concrete recommendations to prioritize maintenance work."
+      },
+      "mise-a-la-terre": {
+        "title": "Earthing networks: a site's most underrated protection",
+        "excerpt": "A poorly sized earthing network endangers equipment as much as people. A refresher on best practices.",
+        "body": "Earthing is often the least visible part of an electrical installation — and yet one of the most critical. A properly sized earthing network dissipates fault currents, protects sensitive equipment and limits risk to people on site.\n\nIn industrial and mining environments, several factors complicate this: soil composition, variable moisture, large metal structures, or a site that has grown through successive extensions. That's why an earthing network needs to be studied, measured and documented, then checked regularly — not just installed once and forgotten.\n\nThis is the first trade ELMA SERVICES was built on back in 2021, with dozens of earthing network diagnostics and improvements delivered for a local industrial client base."
+      },
+      "devis-electrique": {
+        "title": "How to prepare a quote request for an industrial electrical project",
+        "excerpt": "The more precise a quote request, the faster and more reliable the technical response and pricing will be.",
+        "body": "Whether it's building a line, inspecting a substation or a maintenance visit, the quality of a quote depends directly on the quality of the information shared upfront.\n\nA few details save valuable time: the type of installation involved (voltage, age, location), the nature of the need (new construction, maintenance, inspection, study), the site context (access, safety constraints, possible intervention hours) and, if available, any existing technical documentation (diagrams, previous inspection reports).\n\nOur quote request form was designed to capture this essential information from the first exchange, so our teams can come back to you with a suitable technical proposal as quickly as possible."
+      }
+    }
+  },
+  "quote": {
+    "hero": {
+      "eyebrow": "Quote",
+      "title": "Request a quote",
+      "subtitle": "Describe your need and we'll get back to you with a proposal tailored to your project."
+    },
+    "form": {
+      "name": "Full name",
+      "company": "Company / site",
+      "email": "Email",
+      "phone": "Phone",
+      "serviceType": "Service type",
+      "serviceTypePlaceholder": "Select a service",
+      "budget": "Estimated budget (optional)",
+      "message": "Describe your need",
+      "messagePlaceholder": "Type of installation, voltage, location, desired timeline…",
+      "submit": "Send request",
+      "submitting": "Sending…",
+      "success": "Thank you, your request has been sent. We'll get back to you shortly.",
+      "error": "Something went wrong. Please try again or contact us directly.",
+      "required": "This field is required.",
+      "invalidEmail": "Invalid email address."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Contact us",
+      "subtitle": "Fill out the form below and we will get back to you as soon as possible."
+    },
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "phone": "Your phone number",
+      "serviceType": "Service type",
+      "serviceTypePlaceholder": "Select a service (optional)",
+      "message": "Your message",
+      "submit": "Send",
+      "submitting": "Sending…",
+      "success": "Thank you, your message has been sent.",
+      "error": "Something went wrong. Please try again or contact us directly.",
+      "required": "This field is required.",
+      "invalidEmail": "Invalid email address."
+    },
+    "info": {
+      "addressTitle": "Address",
+      "address": "N°03, Av. Double poteaux, Q/Kalubwe, C&V/Lubumbashi",
+      "phoneTitle": "Phone",
+      "emailTitle": "Email",
+      "hoursTitle": "Business hours"
+    }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "history": "Historique",
+    "projects": "Réalisations",
+    "news": "Actualités",
+    "quote": "Devis",
+    "contact": "Contact"
+  },
+  "common": {
+    "getQuote": "Demander un devis",
+    "contactUs": "Nous contacter",
+    "readMore": "En savoir plus",
+    "viewAll": "Voir tout",
+    "viewAllServices": "Voir tous les services",
+    "viewAllProjects": "Voir toutes les réalisations",
+    "ourClients": "Ils nous font confiance",
+    "since": "Depuis 2021",
+    "location": "Lubumbashi, RDC"
+  },
+  "footer": {
+    "tagline": "Des solutions électriques durables, un service d'excellence.",
+    "quickLinks": "Accès rapide",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "hoursWeek": "Lundi – Vendredi : 8h00 – 17h00",
+    "hoursSat": "Samedi : 8h00 – 12h00",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "sitemap": "Plan du site"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Ingénierie électrique 24 V – 245 kV",
+      "title": "Des solutions électriques durables, un service d'excellence",
+      "subtitle": "ELMA SERVICES conçoit, construit et entretient des infrastructures électriques haute et basse tension pour l'industrie et le secteur minier en République Démocratique du Congo.",
+      "ctaPrimary": "Demander un devis",
+      "ctaSecondary": "Découvrir nos services"
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "title": "Une expertise congolaise au service de l'électricité industrielle",
+      "body": "Fondée en 2021 à Lubumbashi, ELMA SERVICES est née d'un constat simple : les grands sites industriels et miniers de la région ont besoin d'une expertise locale qualifiée en conception, construction et maintenance de postes et lignes électriques, de la basse à la très haute tension. Depuis, nos équipes interviennent sur des installations allant du 24 V au 245 kV, avec la même exigence de sécurité et de rigueur technique.",
+      "cta": "Notre histoire"
+    },
+    "values": {
+      "eyebrow": "Ce qui nous guide",
+      "title": "Vision, mission et valeurs",
+      "vision": {
+        "title": "Vision",
+        "body": "Devenir une référence nationale et internationale en construction et maintenance d'infrastructures électriques."
+      },
+      "mission": {
+        "title": "Mission",
+        "body": "Fournir des solutions électriques innovantes, durables et conformes aux normes, au service de nos clients industriels et miniers."
+      },
+      "values": {
+        "title": "Valeurs",
+        "body": "Professionnalisme, qualité et sécurité à chaque intervention, et un engagement fort envers les communautés locales."
+      }
+    },
+    "servicesPreview": {
+      "eyebrow": "Nos services",
+      "title": "Une expertise complète, du 24 V au 245 kV"
+    },
+    "stats": {
+      "eyebrow": "En chiffres",
+      "projects": "Projets réalisés",
+      "clients": "Clients satisfaits",
+      "interventions": "Interventions terrain",
+      "technicians": "Techniciens certifiés"
+    },
+    "projectsPreview": {
+      "eyebrow": "Réalisations",
+      "title": "Des projets menés pour de grands noms de l'industrie minière"
+    },
+    "cta": {
+      "title": "Un projet électrique en préparation ?",
+      "body": "Parlons de vos besoins, du diagnostic terrain à la mise en service.",
+      "button": "Demander un devis"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Nos services",
+      "title": "Une expertise complète, du 24 V au 245 kV",
+      "subtitle": "De la mise à la terre à la haute tension, ELMA SERVICES accompagne vos projets électriques à chaque étape : étude, construction, inspection et maintenance."
+    },
+    "list": {
+      "postes-lignes": {
+        "title": "Construction et maintenance de postes et lignes électriques",
+        "short": "De la basse tension à la très haute tension (24 V à 245 kV), conception, construction et entretien selon les normes internationales.",
+        "long": "Nous concevons, construisons et entretenons des postes et lignes électriques sur toute la plage de tension, de 24 V à 245 kV. Chaque intervention suit les normes internationales en vigueur et s'appuie sur des équipes formées aux exigences des sites industriels et miniers."
+      },
+      "reseaux-terre": {
+        "title": "Réseaux de terre et protection des installations",
+        "short": "Étude, conception, réalisation et maintenance des réseaux de mise à la terre pour protéger installations et équipes.",
+        "long": "La mise à la terre est la première ligne de défense contre les risques électriques. Nous étudions, concevons, réalisons et entretenons vos réseaux de terre, avec mesurage par équipements certifiés, pour protéger vos installations et vos équipes."
+      },
+      "lignes-mt-bt": {
+        "title": "Lignes moyenne et basse tension",
+        "short": "Construction de lignes électriques moyenne et basse tension, du tracé à la mise en service.",
+        "long": "Du tracé à la mise en service, nous construisons vos lignes électriques moyenne et basse tension pour desservir vos sites industriels, vos infrastructures ou vos zones d'exploitation minière."
+      },
+      "inspection": {
+        "title": "Inspections visuelles et thermiques",
+        "short": "Inspections visuelles et thermographiques pour détecter les défauts avant la panne.",
+        "long": "Nos inspections visuelles et thermographiques permettent de détecter en amont les points chauds, défauts de connexion ou signes d'usure sur vos installations, avant qu'ils ne provoquent une panne ou un incident."
+      },
+      "maintenance-ht": {
+        "title": "Maintenance haute tension",
+        "short": "Maintenance préventive et corrective des postes et lignes haute tension.",
+        "long": "Nos techniciens habilités assurent la maintenance préventive et corrective de vos postes et lignes haute tension, avec un suivi rigoureux des équipements et des recommandations d'amélioration continue."
+      },
+      "etudes-conseil": {
+        "title": "Études techniques et conseil",
+        "short": "Études, dimensionnement et conseil en ingénierie électrique dès la phase de conception.",
+        "long": "Nous accompagnons vos projets dès la phase d'étude : dimensionnement, choix techniques et conseil en ingénierie électrique, pour sécuriser vos installations avant même le premier coup de pelle."
+      },
+      "fourniture-equipements": {
+        "title": "Fourniture d'équipements électriques",
+        "short": "Fourniture d'équipements électriques et d'accessoires certifiés.",
+        "long": "Nous fournissons des équipements électriques et accessoires certifiés, sélectionnés pour leur fiabilité, en accompagnement de nos prestations de construction et de maintenance."
+      }
+    }
+  },
+  "history": {
+    "hero": {
+      "eyebrow": "Depuis 2021",
+      "title": "Historique de ELMA SERVICES",
+      "subtitle": "Des solutions électriques durables, un service d'excellence."
+    },
+    "intro": "ELMA SERVICES a été fondée en 2021 à Lubumbashi, en réponse à un besoin identifié sur le terrain : la nécessité de disposer d'une expertise locale qualifiée en conception et construction de stations électriques, en haute comme en basse tension.",
+    "milestones": {
+      "founding": {
+        "year": "2021 – 2022",
+        "title": "Les débuts",
+        "body": "Les premiers projets, de petite et moyenne envergure, sont axés sur la mesure et l'amélioration des réseaux de mise à la terre pour une clientèle locale."
+      },
+      "turning-point": {
+        "year": "2023",
+        "title": "Étape décisive",
+        "body": "ELMA SERVICES franchit un cap avec des travaux sur une ligne 220 kV et des inspections de sous-stations sur les sites NRO, KAMOA/KASONKO et KAKULA, pour le compte de KAMOA COPPER SA / IVANHOE MINES."
+      },
+      "growth": {
+        "year": "Aujourd'hui",
+        "title": "Croissance durable",
+        "body": "Renforcement technique, modernisation des équipements et élargissement de la couverture géographique : ELMA SERVICES poursuit sa croissance au service de l'industrie électrique en RDC."
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Réalisations",
+      "title": "Nos réalisations",
+      "subtitle": "ELMA SERVICES a mené à bien plusieurs projets techniques dans le secteur électrique, démontrant son expertise et son engagement qualité."
+    },
+    "clientsTitle": "Nos clients fidèles",
+    "list": {
+      "reseaux-terre-2021": {
+        "title": "Amélioration des réseaux de terre",
+        "period": "2021 – 2022",
+        "client": "Clientèle industrielle locale",
+        "summary": "Diagnostics et mesurages sur sites industriels, avec équipements certifiés, pour réduire les risques électriques.",
+        "body": "Sur cette première phase, nos équipes ont réalisé des diagnostics et des mesurages sur plusieurs sites industriels, à l'aide d'équipements certifiés, afin de réduire les risques électriques liés à des réseaux de terre vieillissants ou sous-dimensionnés."
+      },
+      "inspection-sous-stations-2023": {
+        "title": "Inspection de sous-stations",
+        "period": "2023",
+        "client": "KAMOA COPPER SA / IVANHOE MINES",
+        "summary": "Inspections visuelles et thermographiques sur les sites NRO, KAMOA/KASONKO et KAKULA.",
+        "body": "Inspections visuelles et thermographiques menées sur les sous-stations des sites NRO, KAMOA/KASONKO et KAKULA, pour détecter les défauts thermiques et anticiper les besoins de maintenance."
+      },
+      "ligne-220kv-2023": {
+        "title": "Amélioration ligne 220 kV",
+        "period": "2023",
+        "client": "KAMOA COPPER SA",
+        "summary": "Travaux haute tension en environnement minier, dans le strict respect des normes de sécurité.",
+        "body": "Travaux d'amélioration réalisés sur une ligne 220 kV en environnement minier, dans le strict respect des normes de sécurité applicables aux interventions haute tension."
+      },
+      "maintenance-periodique": {
+        "title": "Maintenance périodique",
+        "period": "Continue",
+        "client": "Plusieurs clients industriels",
+        "summary": "Suivi régulier des équipements haute et basse tension, avec recommandations d'amélioration continue.",
+        "body": "Un suivi régulier des équipements haute et basse tension de nos clients, assorti de recommandations d'amélioration continue pour prévenir les pannes et prolonger la durée de vie des installations."
+      }
+    }
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "Actualités",
+      "title": "Actualités & ressources techniques",
+      "subtitle": "Nos équipes partagent l'actualité d'ELMA SERVICES et des repères techniques sur la maintenance électrique industrielle."
+    },
+    "backToList": "Retour aux actualités",
+    "list": {
+      "maintenance-preventive": {
+        "title": "Pourquoi la maintenance préventive haute tension évite les pannes coûteuses",
+        "excerpt": "Un point chaud non détecté peut immobiliser une ligne pendant des heures. Voici comment une inspection thermographique régulière limite ce risque.",
+        "body": "Sur un site industriel ou minier, une panne électrique non planifiée coûte rarement seulement le temps de la réparation : elle immobilise aussi la production en amont et en aval. La maintenance préventive haute tension vise précisément à réduire ce risque, en identifiant les signes de défaillance avant qu'ils ne deviennent critiques.\n\nL'inspection thermographique est l'un des outils les plus efficaces pour cela : une caméra thermique permet de repérer un point chaud sur une connexion, un disjoncteur ou un transformateur, souvent invisible à l'œil nu, mais révélateur d'un défaut de serrage ou d'usure. Combinée à des mesures régulières des réseaux de terre et à un suivi documenté des équipements, elle permet de planifier les interventions plutôt que de les subir.\n\nChez ELMA SERVICES, cette approche fait partie de nos interventions courantes sur les sites industriels et miniers de la région de Lubumbashi : diagnostics réguliers, rapports détaillés et recommandations concrètes pour prioriser les travaux."
+      },
+      "mise-a-la-terre": {
+        "title": "Réseaux de terre : la protection la plus sous-estimée d'une installation",
+        "excerpt": "Un réseau de mise à la terre mal dimensionné met en danger les équipements autant que les personnes. Rappel des bonnes pratiques.",
+        "body": "La mise à la terre est souvent la partie la moins visible d'une installation électrique — et pourtant l'une des plus critiques. Un réseau de terre correctement dimensionné évacue les courants de défaut, protège les équipements sensibles et limite les risques pour les personnes présentes sur site.\n\nDans les environnements industriels et miniers, plusieurs facteurs viennent complexifier cette mise en œuvre : nature du sol, humidité variable, présence de structures métalliques importantes, ou encore évolution du site au fil des extensions. C'est pourquoi un réseau de terre doit être étudié, mesuré et documenté, puis contrôlé régulièrement — et pas seulement installé une fois pour toutes.\n\nC'est le premier métier sur lequel ELMA SERVICES s'est construite dès 2021, avec des dizaines de diagnostics et d'améliorations de réseaux de terre réalisés pour une clientèle industrielle locale."
+      },
+      "devis-electrique": {
+        "title": "Bien préparer une demande de devis pour un projet électrique industriel",
+        "excerpt": "Plus une demande de devis est précise, plus la réponse technique et le chiffrage seront rapides et fiables.",
+        "body": "Que ce soit pour la construction d'une ligne, l'inspection d'une sous-station ou une intervention de maintenance, la qualité d'un devis dépend directement de la qualité des informations transmises en amont.\n\nQuelques éléments font gagner un temps précieux : le type d'installation concernée (tension, âge, localisation), la nature du besoin (construction neuve, maintenance, inspection, étude), le contexte du site (accès, contraintes de sécurité, horaires d'intervention possibles) et, si disponible, toute documentation technique existante (schémas, rapports d'inspection précédents).\n\nNotre formulaire de demande de devis a été conçu pour rassembler ces informations essentielles dès le premier échange, afin que nos équipes puissent revenir vers vous avec une proposition technique adaptée le plus rapidement possible."
+      }
+    }
+  },
+  "quote": {
+    "hero": {
+      "eyebrow": "Devis",
+      "title": "Demander un devis",
+      "subtitle": "Décrivez votre besoin, nous revenons vers vous avec une proposition adaptée à votre projet."
+    },
+    "form": {
+      "name": "Nom complet",
+      "company": "Entreprise / site",
+      "email": "Email",
+      "phone": "Téléphone",
+      "serviceType": "Type de service",
+      "serviceTypePlaceholder": "Sélectionnez un service",
+      "budget": "Budget estimatif (optionnel)",
+      "message": "Décrivez votre besoin",
+      "messagePlaceholder": "Type d'installation, tension, localisation, délais souhaités…",
+      "submit": "Envoyer la demande",
+      "submitting": "Envoi en cours…",
+      "success": "Merci, votre demande a bien été envoyée. Nous revenons vers vous rapidement.",
+      "error": "Une erreur est survenue. Merci de réessayer ou de nous contacter directement.",
+      "required": "Ce champ est requis.",
+      "invalidEmail": "Adresse email invalide."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Contactez-nous",
+      "subtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons dans les plus brefs délais."
+    },
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "phone": "Votre numéro",
+      "serviceType": "Type de service",
+      "serviceTypePlaceholder": "Sélectionnez un service (optionnel)",
+      "message": "Votre message",
+      "submit": "Envoyer",
+      "submitting": "Envoi en cours…",
+      "success": "Merci, votre message a bien été envoyé.",
+      "error": "Une erreur est survenue. Merci de réessayer ou de nous contacter directement.",
+      "required": "Ce champ est requis.",
+      "invalidEmail": "Adresse email invalide."
+    },
+    "info": {
+      "addressTitle": "Adresse",
+      "address": "N°03, Av. Double poteaux, Q/Kalubwe, C&V/Lubumbashi",
+      "phoneTitle": "Téléphone",
+      "emailTitle": "Email",
+      "hoursTitle": "Horaires"
+    }
+  }
+}
