@@ -37,7 +37,7 @@ export async function generateMetadata({
       default: "ELMA SERVICES",
       template: "%s — ELMA SERVICES",
     },
-    description: t("subtitle"),
+    description: t("metaDescription"),
     alternates: {
       languages: {
         fr: "/",

@@ -36,7 +36,8 @@
     "hero": {
       "eyebrow": "Ingénierie électrique 24 V – 245 kV",
       "title": "Des solutions électriques durables, un service d'excellence",
-      "subtitle": "ELMA SERVICES conçoit, construit et entretient des infrastructures électriques haute et basse tension pour l'industrie et le secteur minier en République Démocratique du Congo.",
+      "subtitle": "<elma>ELMA</elma> <services>SERVICES</services> conçoit, construit et entretient des infrastructures électriques haute et basse tension pour l'industrie et le secteur minier en République Démocratique du Congo.",
+      "metaDescription": "ELMA SERVICES conçoit, construit et entretient des infrastructures électriques haute et basse tension pour l'industrie et le secteur minier en République Démocratique du Congo.",
       "ctaPrimary": "Demander un devis",
       "ctaSecondary": "Découvrir nos services"
     },

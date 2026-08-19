@@ -36,7 +36,8 @@
     "hero": {
       "eyebrow": "Electrical engineering 24 V – 245 kV",
       "title": "Sustainable electrical solutions, delivered with excellence",
-      "subtitle": "ELMA SERVICES designs, builds and maintains high and low voltage electrical infrastructure for industry and the mining sector in the Democratic Republic of Congo.",
+      "subtitle": "<elma>ELMA</elma> <services>SERVICES</services> designs, builds and maintains high and low voltage electrical infrastructure for industry and the mining sector in the Democratic Republic of Congo.",
+      "metaDescription": "ELMA SERVICES designs, builds and maintains high and low voltage electrical infrastructure for industry and the mining sector in the Democratic Republic of Congo.",
       "ctaPrimary": "Get a quote",
       "ctaSecondary": "Discover our services"
     },

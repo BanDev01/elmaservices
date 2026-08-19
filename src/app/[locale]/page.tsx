@@ -56,7 +56,14 @@ export default async function HomePage({
             {t("hero.title")}
           </h1>
           <p className="mt-6 max-w-xl text-lg text-mist-100/85">
-            {t("hero.subtitle")}
+            {t.rich("hero.subtitle", {
+              elma: (chunks) => (
+                <span className="font-bold text-accent-500">{chunks}</span>
+              ),
+              services: (chunks) => (
+                <span className="font-bold text-primary-400">{chunks}</span>
+              ),
+            })}
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Link
