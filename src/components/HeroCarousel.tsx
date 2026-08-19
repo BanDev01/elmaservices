@@ -17,19 +17,26 @@ export function HeroCarousel({ images }: { images: string[] }) {
   }, [images.length]);
 
   return (
-    <div className="absolute inset-0" aria-hidden>
+    <div className="absolute inset-0 overflow-hidden" aria-hidden>
       {images.map((src, i) => (
-        <Image
+        <div
           key={src}
-          src={src}
-          alt=""
-          fill
-          priority={i === 0}
-          sizes="100vw"
-          className={`object-cover opacity-50 transition-opacity duration-1000 ease-in-out motion-reduce:transition-none ${
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out motion-reduce:transition-none ${
             i === active ? "opacity-50" : "opacity-0"
           }`}
-        />
+        >
+          <Image
+            src={src}
+            alt=""
+            fill
+            priority={i === 0}
+            loading={i === 0 ? undefined : "eager"}
+            sizes="100vw"
+            className={`object-cover transition-transform ease-out motion-reduce:transition-none ${
+              i === active ? "scale-110 duration-[7000ms]" : "scale-100 duration-0"
+            }`}
+          />
+        </div>
       ))}
       <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/70 to-ink-950/40" />
 

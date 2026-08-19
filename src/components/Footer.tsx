@@ -144,7 +144,18 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col gap-2 py-6 text-xs text-ink-500 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} ELMA SERVICES. {t("footer.rights")}
+            © Copyright {year} - ELMA SERVICES - {t("footer.rights")}
+          </p>
+          <p>
+            {t("footer.designedBy")}{" "}
+            <a
+              href="https://bandev01.github.io/portfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-ink-300 hover:text-primary-400"
+            >
+              BERTIN NGONGO
+            </a>
           </p>
         </div>
       </div>
