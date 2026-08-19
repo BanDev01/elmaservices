@@ -152,7 +152,7 @@ export function Footer() {
               href="https://bandev01.github.io/portfolio/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-ink-300 hover:text-primary-400"
+              className="font-semibold text-accent-500 transition-colors hover:text-primary-400"
             >
               BERTIN NGONGO
             </a>
