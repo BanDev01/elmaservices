@@ -15,6 +15,7 @@
     "viewAll": "Voir tout",
     "viewAllServices": "Voir tous les services",
     "viewAllProjects": "Voir toutes les réalisations",
+    "viewAllNews": "Voir toutes les actualités",
     "ourClients": "Ils nous font confiance",
     "since": "Depuis 2021",
     "location": "Lubumbashi, RDC"
@@ -74,6 +75,10 @@
     "projectsPreview": {
       "eyebrow": "Réalisations",
       "title": "Des projets menés pour de grands noms de l'industrie minière"
+    },
+    "newsPreview": {
+      "eyebrow": "Actualités",
+      "title": "Nos dernières actualités"
     },
     "cta": {
       "title": "Un projet électrique en préparation ?",

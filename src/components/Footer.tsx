@@ -32,17 +32,21 @@ function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
 
 const NAV_ITEMS = [
   { href: "/", key: "home" },
-  { href: "/services", key: "services" },
   { href: "/historique", key: "history" },
+  { href: "/services", key: "services" },
   { href: "/realisations", key: "projects" },
   { href: "/actualites", key: "news" },
   { href: "/devis", key: "quote" },
   { href: "/contact", key: "contact" },
 ] as const;
 
-// TODO: replace "#" with the real ELMA SERVICES social profile URLs.
+// TODO: replace "#" with the real ELMA SERVICES LinkedIn/Instagram URLs.
 const SOCIAL_LINKS = [
-  { icon: FacebookIcon, href: "#", label: "Facebook" },
+  {
+    icon: FacebookIcon,
+    href: "https://web.facebook.com/profile.php?id=61571883957262",
+    label: "Facebook",
+  },
   { icon: LinkedinIcon, href: "#", label: "LinkedIn" },
   { icon: InstagramIcon, href: "#", label: "Instagram" },
 ];
@@ -56,11 +60,11 @@ export function Footer() {
       <div className="container-page grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="lg:col-span-1">
           <Image
-            src="/logo.png"
+            src="/logo-dark.png"
             alt="ELMA SERVICES"
             width={160}
             height={48}
-            className="h-10 w-auto brightness-0 invert"
+            className="h-10 w-auto"
           />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
             {t("footer.tagline")}
@@ -71,6 +75,8 @@ export function Footer() {
                 key={label}
                 href={href}
                 aria-label={label}
+                target={href === "#" ? undefined : "_blank"}
+                rel={href === "#" ? undefined : "noopener noreferrer"}
                 className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-mist-100 transition-colors hover:border-primary-400 hover:text-primary-400"
               >
                 <Icon className="h-4 w-4" />

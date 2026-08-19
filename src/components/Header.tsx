@@ -9,8 +9,8 @@ import { LocaleSwitcher } from "./LocaleSwitcher";
 
 const NAV_ITEMS = [
   { href: "/", key: "home" },
-  { href: "/services", key: "services" },
   { href: "/historique", key: "history" },
+  { href: "/services", key: "services" },
   { href: "/realisations", key: "projects" },
   { href: "/actualites", key: "news" },
   { href: "/contact", key: "contact" },

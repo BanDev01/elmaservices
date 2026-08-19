@@ -15,6 +15,7 @@
     "viewAll": "View all",
     "viewAllServices": "View all services",
     "viewAllProjects": "View all projects",
+    "viewAllNews": "View all news",
     "ourClients": "Trusted by",
     "since": "Since 2021",
     "location": "Lubumbashi, DRC"
@@ -74,6 +75,10 @@
     "projectsPreview": {
       "eyebrow": "Projects",
       "title": "Work delivered for major names in the mining industry"
+    },
+    "newsPreview": {
+      "eyebrow": "News",
+      "title": "Latest news"
     },
     "cta": {
       "title": "Planning an electrical project?",

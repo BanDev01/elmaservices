@@ -6,10 +6,20 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceCard } from "@/components/ServiceCard";
 import { StatsBar } from "@/components/StatsBar";
 import { ProjectCard } from "@/components/ProjectCard";
+import { NewsCard } from "@/components/NewsCard";
 import { ClientLogos } from "@/components/ClientLogos";
 import { CtaBanner } from "@/components/CtaBanner";
+import { HeroCarousel } from "@/components/HeroCarousel";
 import { services } from "@/content/services";
 import { projects } from "@/content/projects";
+import { sortedNews } from "@/content/news";
+
+const HERO_IMAGES = [
+  "/images/hero-substation.jpg",
+  "/images/service-postes-lignes.jpg",
+  "/images/realisation-ligne-220kv.jpg",
+  "/images/equipe-briefing.jpg",
+];
 
 export default async function HomePage({
   params,
@@ -22,25 +32,22 @@ export default async function HomePage({
   const t = await getTranslations("home");
   const tServices = await getTranslations("services.list");
   const tProjects = await getTranslations("projects.list");
+  const tNews = await getTranslations("news.list");
   const tCommon = await getTranslations("common");
 
   const featuredProjects = projects.filter((p) => p.featured).slice(0, 3);
+  const latestNews = sortedNews().slice(0, 3);
+  const dateFormatter = new Intl.DateTimeFormat(locale, {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
 
   return (
     <>
       {/* Hero */}
       <section className="relative overflow-hidden bg-ink-950">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/hero-substation.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover opacity-50"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/70 to-ink-950/40" />
-        </div>
+        <HeroCarousel images={HERO_IMAGES} />
         <div className="container-page relative py-28 sm:py-36 lg:py-44">
           <p className="text-sm font-bold uppercase tracking-widest text-accent-500">
             {t("hero.eyebrow")}
@@ -68,6 +75,8 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+
+      <StatsBar />
 
       {/* About */}
       <section className="section-y">
@@ -156,10 +165,8 @@ export default async function HomePage({
         </div>
       </section>
 
-      <StatsBar />
-
       {/* Projects preview */}
-      <section className="section-y">
+      <section className="section-y bg-mist-50">
         <div className="container-page">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading
@@ -184,6 +191,37 @@ export default async function HomePage({
                 period={tProjects(`${project.id}.period`)}
                 client={tProjects(`${project.id}.client`)}
                 summary={tProjects(`${project.id}.summary`)}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* News preview */}
+      <section className="section-y">
+        <div className="container-page">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading
+              eyebrow={t("newsPreview.eyebrow")}
+              title={t("newsPreview.title")}
+            />
+            <Link
+              href="/actualites"
+              className="inline-flex items-center gap-2 text-sm font-bold text-primary-600 hover:text-primary-700"
+            >
+              {tCommon("viewAllNews")}
+              <ArrowRight className="h-4 w-4" aria-hidden />
+            </Link>
+          </div>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {latestNews.map((article) => (
+              <NewsCard
+                key={article.id}
+                href={`/actualites/${article.slug}`}
+                image={article.image}
+                date={dateFormatter.format(new Date(article.date))}
+                title={tNews(`${article.id}.title`)}
+                excerpt={tNews(`${article.id}.excerpt`)}
               />
             ))}
           </div>
