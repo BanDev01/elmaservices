@@ -76,15 +76,18 @@ export function Header() {
           </Link>
         </div>
 
-        <button
-          type="button"
-          className="inline-flex items-center justify-center rounded-md p-2 text-ink-900 lg:hidden"
-          aria-label="Menu"
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        <div className="flex items-center gap-3 lg:hidden">
+          <LocaleSwitcher />
+          <button
+            type="button"
+            className="inline-flex items-center justify-center rounded-md p-2 text-ink-900"
+            aria-label="Menu"
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </div>
 
       {open && (
@@ -108,16 +111,6 @@ export function Header() {
                 </Link>
               );
             })}
-            <div className="mt-2 px-3">
-              <LocaleSwitcher />
-            </div>
-            <Link
-              href="/devis"
-              onClick={() => setOpen(false)}
-              className="mt-3 rounded-full bg-accent-500 px-5 py-3 text-center text-sm font-bold text-white"
-            >
-              {t("quote")}
-            </Link>
           </nav>
         </div>
       )}
