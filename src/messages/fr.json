@@ -69,10 +69,22 @@
     },
     "stats": {
       "eyebrow": "En chiffres",
-      "projects": "Projets réalisés",
-      "clients": "Clients satisfaits",
-      "interventions": "Interventions terrain",
-      "technicians": "Techniciens certifiés"
+      "projects": {
+        "label": "Projets réalisés",
+        "description": "Conception & maintenance clés en main"
+      },
+      "clients": {
+        "label": "Clients satisfaits",
+        "description": "Partenariats durables"
+      },
+      "interventions": {
+        "label": "Interventions",
+        "description": "Sur le terrain, HT/MT/BT"
+      },
+      "technicians": {
+        "label": "Techniciens certifiés",
+        "description": "Experts formés aux normes internationales"
+      }
     },
     "projectsPreview": {
       "eyebrow": "Réalisations",

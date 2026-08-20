@@ -69,10 +69,22 @@
     },
     "stats": {
       "eyebrow": "By the numbers",
-      "projects": "Projects completed",
-      "clients": "Satisfied clients",
-      "interventions": "Field interventions",
-      "technicians": "Certified technicians"
+      "projects": {
+        "label": "Projects completed",
+        "description": "Turnkey design & maintenance"
+      },
+      "clients": {
+        "label": "Satisfied clients",
+        "description": "Long-term partnerships"
+      },
+      "interventions": {
+        "label": "Interventions",
+        "description": "On site, HV/MV/LV"
+      },
+      "technicians": {
+        "label": "Certified technicians",
+        "description": "Experts trained to international standards"
+      }
     },
     "projectsPreview": {
       "eyebrow": "Projects",

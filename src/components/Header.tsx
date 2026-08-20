@@ -108,15 +108,8 @@ export function Header() {
                 </Link>
               );
             })}
-            <div className="mt-2 flex items-center justify-between gap-3 px-3">
+            <div className="mt-2 px-3">
               <LocaleSwitcher />
-              <a
-                href="tel:+243813216779"
-                className="flex items-center gap-2 text-sm font-semibold text-ink-700"
-              >
-                <Phone className="h-4 w-4" aria-hidden />
-                +243 813 216 779
-              </a>
             </div>
             <Link
               href="/devis"

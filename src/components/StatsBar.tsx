@@ -20,7 +20,12 @@ export function StatsBar() {
               <p className="font-display text-3xl font-extrabold text-ink-950 sm:text-4xl">
                 <AnimatedCounter value={value} />
               </p>
-              <p className="text-sm font-semibold text-ink-500">{t(key)}</p>
+              <div>
+                <p className="text-sm font-bold text-ink-950">{t(`${key}.label`)}</p>
+                <p className="mt-0.5 text-xs text-ink-500">
+                  {t(`${key}.description`)}
+                </p>
+              </div>
             </div>
           ))}
         </div>
